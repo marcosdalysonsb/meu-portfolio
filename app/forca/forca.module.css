@@ -1,0 +1,671 @@
+.pagina {
+  min-height: 100vh;
+  background: #f4f2ed;
+  color: #111;
+}
+
+/* HEADER */
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: rgba(244, 242, 237, 0.94);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid #d9d6cc;
+}
+
+.headerContainer {
+  max-width: 1120px;
+  height: 64px;
+  margin: 0 auto;
+  padding: 0 28px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 38px;
+  height: 38px;
+
+  display: grid;
+  place-items: center;
+
+  border: 1.5px solid #111;
+
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.85rem;
+  font-weight: 700;
+
+  transition: 0.2s;
+}
+
+.logo:hover {
+  color: #fff;
+  background: #111;
+}
+
+.voltar {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.78rem;
+  color: #6b6b66;
+
+  transition: color 0.2s;
+}
+
+.voltar:hover {
+  color: #2340ff;
+}
+
+/* CONTEÚDO */
+
+.conteudo {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 90px 28px 70px;
+}
+
+/* TÍTULO */
+
+.tituloArea {
+  margin-bottom: 38px;
+}
+
+.etiqueta {
+  display: inline-block;
+  margin-bottom: 16px;
+  padding: 5px 10px;
+
+  border: 1px solid #d9d6cc;
+  background: #fbfaf7;
+
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  color: #2340ff;
+}
+
+.tituloArea h1 {
+  margin: 0;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(3rem, 7vw, 5.5rem);
+  line-height: 0.95;
+  letter-spacing: -0.04em;
+}
+
+.tituloArea h1 span {
+  color: #2340ff;
+}
+
+.tituloArea p {
+  max-width: 550px;
+  margin-top: 20px;
+
+  color: #6b6b66;
+  font-size: 1rem;
+}
+
+/* TEMA */
+
+.tema {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 20px;
+  padding: 15px 18px;
+
+  background: #111;
+  color: #fff;
+}
+
+.tema span {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  color: #aaa;
+}
+
+.tema strong {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+  color: #fff;
+}
+
+/* ÁREA DO JOGO */
+
+.jogo {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  min-height: 600px;
+
+  background: #fbfaf7;
+  border: 1px solid #d9d6cc;
+}
+
+/* PAINEL DA FORCA */
+
+.painelForca {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 28px;
+
+  background: #ebe9e2;
+  border-right: 1px solid #d9d6cc;
+}
+
+.tentativas {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.tentativas p {
+  margin: 0;
+
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.06em;
+  color: #6b6b66;
+}
+
+.tentativas strong {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2rem;
+  color: #2340ff;
+}
+
+.tentativas span {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.7rem;
+  color: #6b6b66;
+}
+
+/* DESENHO */
+
+.desenho {
+  position: relative;
+
+  width: 280px;
+  height: 350px;
+
+  margin: auto;
+}
+
+/* Estrutura */
+
+.baseForca {
+  position: absolute;
+  left: 25px;
+  bottom: 25px;
+
+  width: 210px;
+  height: 5px;
+
+  background: #111;
+}
+
+.colunaForca {
+  position: absolute;
+  left: 70px;
+  bottom: 30px;
+
+  width: 5px;
+  height: 270px;
+
+  background: #111;
+}
+
+.topoForca {
+  position: absolute;
+  left: 70px;
+  top: 45px;
+
+  width: 150px;
+  height: 5px;
+
+  background: #111;
+}
+
+.cordaForca {
+  position: absolute;
+  left: 215px;
+  top: 45px;
+
+  width: 4px;
+  height: 45px;
+
+  background: #111;
+}
+
+/* CORPO */
+
+.cabeca {
+  position: absolute;
+  top: 88px;
+  left: 190px;
+
+  width: 50px;
+  height: 50px;
+
+  border: 4px solid #111;
+  border-radius: 50%;
+}
+
+.corpo {
+  position: absolute;
+  top: 138px;
+  left: 213px;
+
+  width: 4px;
+  height: 75px;
+
+  background: #111;
+}
+
+.bracoEsquerdo,
+.bracoDireito,
+.pernaEsquerda,
+.pernaDireita {
+  position: absolute;
+
+  width: 4px;
+  height: 55px;
+
+  background: #111;
+  transform-origin: top center;
+}
+
+.bracoEsquerdo {
+  top: 150px;
+  left: 214px;
+  transform: rotate(45deg);
+}
+
+.bracoDireito {
+  top: 150px;
+  left: 214px;
+  transform: rotate(-45deg);
+}
+
+.pernaEsquerda {
+  top: 208px;
+  left: 214px;
+  transform: rotate(35deg);
+}
+
+.pernaDireita {
+  top: 208px;
+  left: 214px;
+  transform: rotate(-35deg);
+}
+
+/* PAINEL DO JOGO */
+
+.painelJogo {
+  display: flex;
+  flex-direction: column;
+
+  padding: 45px;
+}
+
+/* PALAVRA */
+
+.palavra {
+  min-height: 90px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+
+  padding: 15px;
+
+  border-bottom: 1px solid #d9d6cc;
+
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: clamp(1.5rem, 4vw, 2.3rem);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.letraPalavra {
+  min-width: 25px;
+  text-align: center;
+}
+
+.espaco {
+  width: 20px;
+}
+
+/* INSTRUÇÃO */
+
+.instrucao {
+  margin: 25px 0 14px;
+
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #6b6b66;
+}
+
+/* RESULTADO */
+
+.resultado {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+
+  margin: 22px 0;
+  padding: 15px;
+
+  border: 1px solid;
+}
+
+.resultado > span {
+  width: 32px;
+  height: 32px;
+
+  display: grid;
+  place-items: center;
+
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.resultado strong {
+  display: block;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.1rem;
+}
+
+.resultado p {
+  margin-top: 2px;
+  font-size: 0.82rem;
+}
+
+.vitoria {
+  border-color: #20a866;
+  background: #eef9f3;
+}
+
+.vitoria > span {
+  color: #fff;
+  background: #20a866;
+}
+
+.derrota {
+  border-color: #c83c3c;
+  background: #fff1f1;
+}
+
+.derrota > span {
+  color: #fff;
+  background: #c83c3c;
+}
+
+/* TECLADO */
+
+.teclado {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 7px;
+
+  margin-top: 20px;
+}
+
+.tecla {
+  min-height: 42px;
+
+  border: 1px solid #d9d6cc;
+  background: #f4f2ed;
+
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.78rem;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition:
+    background 0.2s,
+    color 0.2s,
+    border-color 0.2s,
+    transform 0.2s;
+}
+
+.tecla:hover:not(:disabled) {
+  color: #fff;
+  background: #111;
+  border-color: #111;
+  transform: translateY(-2px);
+}
+
+.tecla:disabled {
+  cursor: default;
+}
+
+.teclaCorreta {
+  color: #fff;
+  background: #20a866;
+  border-color: #20a866;
+}
+
+.teclaErrada {
+  color: #fff;
+  background: #c83c3c;
+  border-color: #c83c3c;
+}
+
+/* LETRAS USADAS */
+
+.usadas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+
+  margin-top: 30px;
+  padding-top: 22px;
+
+  border-top: 1px solid #d9d6cc;
+}
+
+.grupoLetras p {
+  margin-bottom: 8px;
+
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.07em;
+  color: #6b6b66;
+}
+
+.listaLetras {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.nenhuma {
+  color: #aaa;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.75rem;
+}
+
+.letraCorreta,
+.letraErrada {
+  min-width: 28px;
+  height: 28px;
+
+  display: grid;
+  place-items: center;
+
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.letraCorreta {
+  color: #187d4b;
+  background: #e3f4eb;
+}
+
+.letraErrada {
+  color: #a92e2e;
+  background: #f8e3e3;
+}
+
+/* NOVO JOGO */
+
+.novoJogo {
+  align-self: flex-start;
+
+  margin-top: 30px;
+  padding: 12px 22px;
+
+  color: #fff;
+  background: #111;
+  border: 1px solid #111;
+
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.78rem;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.novoJogo:hover {
+  background: #2340ff;
+  border-color: #2340ff;
+  transform: translateY(-2px);
+}
+
+/* INFORMAÇÃO */
+
+.informacao {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  margin-top: 20px;
+  padding: 16px 18px;
+
+  border: 1px solid #d9d6cc;
+  background: #fbfaf7;
+}
+
+.informacao span {
+  font-size: 1.1rem;
+}
+
+.informacao p {
+  font-size: 0.82rem;
+}
+
+/* RESPONSIVO */
+
+@media (max-width: 900px) {
+  .jogo {
+    grid-template-columns: 1fr;
+  }
+
+  .painelForca {
+    min-height: 420px;
+    border-right: none;
+    border-bottom: 1px solid #d9d6cc;
+  }
+
+  .desenho {
+    margin-top: 20px;
+  }
+
+  .painelJogo {
+    padding: 35px;
+  }
+}
+
+@media (max-width: 600px) {
+  .headerContainer {
+    padding: 0 20px;
+  }
+
+  .conteudo {
+    padding: 60px 20px 50px;
+  }
+
+  .tituloArea h1 {
+    font-size: 3.2rem;
+  }
+
+  .jogo {
+    min-height: auto;
+  }
+
+  .painelForca {
+    padding: 20px;
+  }
+
+  .desenho {
+    transform: scale(0.82);
+    transform-origin: center;
+    margin: -10px auto;
+  }
+
+  .painelJogo {
+    padding: 25px 18px;
+  }
+
+  .palavra {
+    gap: 7px;
+    font-size: 1.35rem;
+  }
+
+  .letraPalavra {
+    min-width: 18px;
+  }
+
+  .teclado {
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+  }
+
+  .tecla {
+    min-height: 38px;
+  }
+
+  .usadas {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .tema {
+    padding: 13px 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  .teclado {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .tituloArea h1 {
+    font-size: 2.7rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tecla,
+  .novoJogo,
+  .logo {
+    transition: none;
+  }
+}
