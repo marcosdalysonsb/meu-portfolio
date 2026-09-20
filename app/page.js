@@ -81,15 +81,15 @@ function Hero() {
 
       <dl className="about-list">
         <div>
-          <dt className="mono label">Formação técnica</dt>
-          <dd>Redes de Computadores</dd>
+          <dt className="mono label">🎓 Formação</dt>
+          <dd>Ciência da Computação</dd>
         </div>
         <div>
-          <dt className="mono label">Interesses</dt>
+          <dt className="mono label">💡 Interesses</dt>
           <dd>Web, Software, Cibersegurança</dd>
         </div>
         <div>
-          <dt className="mono label">Objetivo</dt>
+          <dt className="mono label">🎯 Objetivo</dt>
           <dd>Primeira oportunidade em tecnologia</dd>
         </div>
       </dl>
@@ -347,10 +347,11 @@ function Contato() {
     <section className="section wrap" id="contato">
       <Heading code="05" title="Contato" />
       <div className="contact-list">
-        <Contact label="GitHub" value="github.com/marcosdalysonsb" href="https://github.com/marcosdalysonsb" />
-        <Contact label="LinkedIn" value="https://www.linkedin.com/in/marcos-dalyson" href="https://www.linkedin.com/in/marcos-dalyson-9457373b3/" />
-        <Contact label="E-mail" value="marcosdalyson@gmail.com" href="mailto:marcosdalyson@gmail.com" />
+        <Contact label="🐙 GitHub" value="github.com/marcosdalysonsb" href="https://github.com/marcosdalysonsb" />
+        <Contact label="💼 LinkedIn" value="https://www.linkedin.com/in/marcos-dalyson" href="https://www.linkedin.com/in/marcos-dalyson-9457373b3/" />
+        <Contact label="📧 E-mail" value="marcosdalyson@gmail.com" href="mailto:marcosdalyson@gmail.com" />
       </div>
+
     </section>
   );
 }
