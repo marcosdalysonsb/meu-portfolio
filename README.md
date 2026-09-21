@@ -87,5 +87,5 @@ O Jogo da Forca possui três categorias:
 
 ---
 
-👨‍💻 Autor
+## 👨‍💻 Autor
 Marcos Dalyson
