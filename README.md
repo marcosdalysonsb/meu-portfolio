@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💻 Portfólio — Marcos Dalyson
 
-## Getting Started
+Ciência da Computação • Desenvolvimento de Software • Tecnologia
 
-First, run the development server:
+[![Acessar Portfólio](https://img.shields.io/badge/🌐_Acessar_Portfólio-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://meu-portfolio-phi-ruby.vercel.app/)
+[![🎮 Jogo da Forca](https://img.shields.io/badge/🎮_Jogo_da_Forca-Jogar-007acc?style=for-the-badge)](https://meu-portfolio-phi-ruby.vercel.app/forca)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌐 Sobre o projeto
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Este projeto é meu **portfólio pessoal**, desenvolvido para apresentar minha formação acadêmica, habilidades, projetos e atividades extracurriculares na área de tecnologia.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+O projeto também conta com uma página dedicada ao **Jogo da Forca**, desenvolvida para praticar lógica de programação, React, gerenciamento de estado e interação com o usuário.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🎯 Objetivos
 
-To learn more about Next.js, take a look at the following resources:
+- Apresentar minha trajetória acadêmica;
+- Centralizar meus principais projetos;
+- Demonstrar conhecimentos em desenvolvimento web;
+- Praticar **React** e **Next.js**;
+- Desenvolver uma aplicação responsiva;
+- Criar um projeto para apresentar meu trabalho e evolução na área de tecnologia.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Tecnologias
 
-## Deploy on Vercel
+### Frameworks & Linguagens
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| Tecnologia | Utilização |
+| :--- | :--- |
+| **Next.js** | Framework principal |
+| **React** | Construção da interface |
+| **JavaScript** | Lógica e funcionalidades |
+| **CSS Modules** | Estilização do Jogo da Forca |
+| **CSS** | Estilização do portfólio |
+| **App Router** | Estrutura das páginas |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Ferramentas
+
+| Ferramenta | Utilização |
+| :--- | :--- |
+| **Git** | Controle de versão |
+| **GitHub** | Hospedagem do código |
+| **Vercel** | Deploy da aplicação |
+| **VS Code** | Desenvolvimento |
+
+---
+
+## ✨ Funcionalidades
+
+### 📄 Portfólio
+- 👤 Apresentação pessoal
+- 🎓 Formação acadêmica
+- 💻 Projetos
+- 🏆 Atividades extracurriculares
+- 🧠 Habilidades e tecnologias
+- 📬 Informações de contato
+- 📱 Layout responsivo
+- 🧭 Navegação entre seções
+
+### 🎮 Jogo da Forca
+- 🎲 Palavra escolhida aleatoriamente
+- 🏷️ 3 categorias de palavras
+- 📝 30 palavras disponíveis
+- ⌨️ Teclado virtual
+- ❤️ 6 tentativas
+- ✅ Identificação de letras corretas
+- ❌ Identificação de letras erradas
+- 🏆 Tela de vitória
+- 💀 Tela de derrota
+- 🔄 Nova partida
+
+---
+
+## 📚 Categorias do Jogo
+
+O Jogo da Forca possui três categorias:
+
+- 🐶 **Animais**
+- 🪑 **Objetos**
+- 🍕 **Comidas**
+
+*Cada categoria possui 10 palavras, totalizando 30 palavras.*
+    ├── page.js
+    └── forca.module.css
+│
+├── public/
+└── package.json
