@@ -1,4 +1,4 @@
-# 💻 Portfólio — Marcos Dalyson
+# 🚀 Portfólio — Marcos Dalyson
 
 Ciência da Computação • Desenvolvimento de Software • Tecnologia
 
@@ -6,72 +6,72 @@ Ciência da Computação • Desenvolvimento de Software • Tecnologia
 
 ---
 
-## 🌐 Sobre o projeto
+## 📌 Sobre o projeto
 
-Este projeto é meu **portfólio pessoal**, desenvolvido para apresentar minha formação acadêmica, habilidades, projetos e atividades extracurriculares na área de tecnologia.
+Este projeto reúne meu portfólio acadêmico e profissional, apresentando minha formação, habilidades, projetos e atividades na área de tecnologia.
 
-O projeto também conta com uma página dedicada ao **Jogo da Forca**, desenvolvida para praticar lógica de programação, React, gerenciamento de estado e interação com o usuário.
+O projeto também possui um Jogo da Forca interativo, desenvolvido para praticar React, gerenciamento de estado e interação com o usuário.
 
 ---
 
 ## 🎯 Objetivos
 
-- Apresentar minha trajetória acadêmica;
-- Centralizar meus principais projetos;
-- Demonstrar conhecimentos em desenvolvimento web;
-- Praticar **React** e **Next.js**;
-- Desenvolver uma aplicação responsiva;
-- Criar um projeto para apresentar meu trabalho e evolução na área de tecnologia.
+- Apresentar minha formação acadêmica;
+- Reunir meus principais projetos;
+- Mostrar meus conhecimentos em desenvolvimento web;
+- Praticar React e Next.js;
+- Criar uma aplicação responsiva;
+- Acompanhar minha evolução na área de tecnologia.
 
 ---
 
 ## 🛠️ Tecnologias
 
-### Frameworks & Linguagens
+### Linguagens e Bibliotecas
 
 | Tecnologia | Utilização |
 | :--- | :--- |
 | **Next.js** | Framework principal |
-| **React** | Construção da interface |
+| **React** | Criação dos componentes |
 | **JavaScript** | Lógica e funcionalidades |
-| **CSS Modules** | Estilização do Jogo da Forca |
-| **CSS** | Estilização do portfólio |
-| **App Router** | Estrutura das páginas |
+| **CSS Modules** | Estilos do Jogo da Forca |
+| **CSS** | Estilização do projeto |
+| **App Router** | Criação das páginas e rotas |
 
 ### Ferramentas
 
 | Ferramenta | Utilização |
 | :--- | :--- |
 | **Git** | Controle de versão |
-| **GitHub** | Hospedagem do código |
-| **Vercel** | Deploy da aplicação |
+| **GitHub** | Armazenamento do código |
+| **Vercel** | Deploy do projeto |
 | **VS Code** | Desenvolvimento |
 
 ---
 
-## ✨ Funcionalidades
+## ⚙️ Funcionalidades
 
-### 📄 Portfólio
-- 👤 Apresentação pessoal
+### 🗂️ Portfólio
+- 🪪 Apresentação pessoal
 - 🎓 Formação acadêmica
 - 💻 Projetos
 - 🏆 Atividades extracurriculares
-- 🧠 Habilidades e tecnologias
-- 📬 Informações de contato
-- 📱 Layout responsivo
+- 💡 Habilidades e tecnologias
+- 📩 Informações de contato
+- 📱 Design responsivo
 - 🧭 Navegação entre seções
 
 ### 🎮 Jogo da Forca
-- 🎲 Palavra escolhida aleatoriamente
-- 🏷️ 3 categorias de palavras
-- 📝 30 palavras disponíveis
-- ⌨️ Teclado virtual
+- 🎲 Palavras escolhidas aleatoriamente
+- 🏷️ 3 temas diferentes
+- 📝 30 palavras
+- ⌨️ Teclado interativo
 - ❤️ 6 tentativas
-- ✅ Identificação de letras corretas
-- ❌ Identificação de letras erradas
-- 🏆 Tela de vitória
-- 💀 Tela de derrota
-- 🔄 Nova partida
+- 🟢 Letras corretas
+- 🔴 Letras erradas
+- 🏆 Mensagem de vitória
+- 💀 Mensagem de derrota
+- 🔄 Botão para iniciar uma nova partida
 
 ---
 
@@ -84,3 +84,8 @@ O Jogo da Forca possui três categorias:
 - 🍕 **Comidas**
 
 *Cada categoria possui 10 palavras, totalizando 30 palavras.*
+
+---
+
+👨‍💻 Autor
+Marcos Dalyson
