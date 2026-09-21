@@ -2,7 +2,9 @@
 
 Ciência da Computação • Desenvolvimento de Software • Tecnologia
 
-[![Acessar Portfólio](https://img.shields.io/badge/🌐_Acessar_Portfólio-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://meu-portfolio-phi-ruby.vercel.app/)
+[![Acessar Portfólio](https://img.shields.io/badge/🌐_Acessar_Portfólio-000000?style=for-the-badge)](https://meu-portfolio-phi-ruby.vercel.app/)
+
+---
 
 ## 🌐 Sobre o projeto
 
@@ -82,7 +84,3 @@ O Jogo da Forca possui três categorias:
 - 🍕 **Comidas**
 
 *Cada categoria possui 10 palavras, totalizando 30 palavras.*
-    └── forca.module.css
-│
-├── public/
-└── package.json
