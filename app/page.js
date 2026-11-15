@@ -267,7 +267,8 @@ function Projetos() {
           code="PRJ-06"
           name="Andador Inteligente"
           tech="Python · Raspberry Pi · Flask · SQLite · YOLO · GPS · MPU6050 · Telegram"
-          label="projeto acadêmico"
+          href="https://github.com/andadorInteligente/projeto-andador"
+          label="ver repositório"
         >
           Sistema desenvolvido para monitoramento e segurança do usuário, integrando
           sensores, câmera, GPS e visão computacional para identificação de quedas
